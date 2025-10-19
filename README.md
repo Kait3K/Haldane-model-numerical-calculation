@@ -14,13 +14,17 @@ Then the Bloch Hamiltonian can be written as
   H(k) = d₀(k) I + d(k)·σ
 with
   d₀(k) = 2 t₂ cosφ ∑_{i} cos(k·bᵢ)
+  
   dₓ(k) = Re g(k) = t₁ ∑_{i} cos(k·δᵢ)
+  
   d_y(k) = -Im g(k) = - t₁ ∑_{i} sin(k·δᵢ)
+  
   d_z(k) = M - 2 t₂ sinφ ∑_{i} sin(k·bᵢ)
 
 Matrix form:
   H(k) =
-    [ d₀(k)+d_z(k)      dₓ(k) - i d_y(k) ]
+    [ d₀(k)+d_z(k)     dₓ(k) - i d_y(k) ]
+    
     [ dₓ(k) + i d_y(k)  d₀(k)-d_z(k)    ]
 
 ## Energy eigenvalues
